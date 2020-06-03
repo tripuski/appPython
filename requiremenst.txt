@@ -1,0 +1,9 @@
+django=2.2.12
+
+mongodb+srv://sergio:1234@horariocluster-rohep.mongodb.net/test?retryWrites=true&w=majority
+
+
+
+comado para iniciar el servicio de django:
+
+(entorno) C:\appPython>c:/app/core>python manage.py runserver
