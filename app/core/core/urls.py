@@ -21,10 +21,6 @@ from django.conf.urls.static import static
 
 urlpatterns = [
     path('',include('src.urls')),
+    path('',include('userdata.urls')),
     path('admin/', admin.site.urls),
 ]
-
-# urlpatterns = [
-#     path('', HomePageView.as_view(), name='index'),
-#     path('admin/', admin.site.urls),
-# ]

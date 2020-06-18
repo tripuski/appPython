@@ -22,7 +22,7 @@ class DatosUser(models.Model):
     NombUser=models.CharField(max_length=200,null=True,verbose_name="Nombre")
     apelUser=models.CharField(max_length=200,null=True,verbose_name="Apellido")
     profeUser=models.CharField(max_length=100,null=True,verbose_name="Profecion")
-    fotoUser = models.ImageField(default='user.png', verbose_name = "Foto de perfil", upload_to="perfiles/img")
+    fotoUser = models.ImageField(default='user.png', verbose_name = "Foto de perfil", upload_to="images/perfiles")
     teleUser = models.CharField(max_length=20,verbose_name="Numero de telefono") 
     geneUser=models.CharField(max_length=20,choices=Generos, default="Otro",verbose_name="Genero")
     adddata=models.DateTimeField(auto_now_add=True, null=True)
